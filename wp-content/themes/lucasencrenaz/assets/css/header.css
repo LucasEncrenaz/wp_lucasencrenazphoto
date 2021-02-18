@@ -1,0 +1,27 @@
+.header {
+    margin: 20px 0;
+}
+
+.header .menuHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menuHeader .item {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.header .menuHeader .item a {
+    transition: all 250ms;
+}
+
+.header .menuHeader .item a:hover {
+    color: #FFFFFF;
+}
