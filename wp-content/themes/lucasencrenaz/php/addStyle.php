@@ -27,3 +27,10 @@ wp_enqueue_style(
     array(),
     '1.0',
 );
+
+wp_enqueue_style(
+    'gallery',
+    get_template_directory_uri().'/assets/css/gallery.css',
+    array(),
+    '1.0',
+);
