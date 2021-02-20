@@ -25,3 +25,9 @@
 .header .menuHeader .item a:hover {
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .header .menuHeader .item {
+        font-size: 1rem;
+    }
+}

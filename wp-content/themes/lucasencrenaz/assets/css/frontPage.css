@@ -1,10 +1,16 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .homePage .blockDescription {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 80px 0 0 0;
+    margin: 60px 0 80px 0;
 }
 
 .homePage .blockDescription .avatar {
@@ -25,6 +31,7 @@
 
 .homePage .blockDescription .listSocialNetwork {
     display: flex;
+    margin: 20px 0 0 0;
 }
 
 .homePage .blockDescription .listSocialNetwork .item {
@@ -37,4 +44,17 @@
 .homePage .blockDescription .listSocialNetwork .item i {
     font-size: 40px;
     font-weight: 100;
+    transition: all 250ms;
+}
+
+.homePage .blockDescription .listSocialNetwork .item i:hover {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+
+    .blockDescription {
+        width: 90%;
+    }
+
 }

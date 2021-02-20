@@ -29,8 +29,8 @@ wp_enqueue_style(
 );
 
 wp_enqueue_style(
-    'gallery',
-    get_template_directory_uri().'/assets/css/gallery.css',
+    'footer',
+    get_template_directory_uri().'/assets/css/footer.css',
     array(),
     '1.0',
 );

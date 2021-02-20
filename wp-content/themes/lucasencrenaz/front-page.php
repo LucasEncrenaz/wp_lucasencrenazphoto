@@ -5,9 +5,6 @@ $image = get_field('photo');
 $listSocialNetwork = get_field('liste_reseaux_sociaux');
 $iconMail = get_field('mail');
 $adressMail = get_field('adresse_mail');
-$images1 = get_field('colonne_1');
-$images2 = get_field('colonne_2');
-$images3 = get_field('colonne_3');
 
 ?>
 
@@ -41,46 +38,9 @@ $images3 = get_field('colonne_3');
     }
     ?>
     </div>
-    <div class="galery">
-      <?php 
-      if( $images1 ): ?>
-          <ul class="list_galery">
-              <?php foreach( $images1 as $image1 ): ?>
-                  <li class="item_galery">
-                      <a class="link_galery" href="<?php echo esc_url($image1['url']); ?>">
-                          <img class="img_galery" src="<?php echo esc_url($image1['sizes']['large']); ?>" alt="<?php echo esc_attr($image1['alt']); ?>" />
-                      </a>
-                  </li>
-              <?php endforeach; ?>
-          </ul>
-      <?php endif; ?>
-  
-      <?php 
-      if( $images2 ): ?>
-          <ul class="list_galery">
-              <?php foreach( $images2 as $image2 ): ?>
-                  <li class="item_galery">
-                      <a class="link_galery" href="<?php echo esc_url($image2['url']); ?>">
-                          <img class="img_galery" src="<?php echo esc_url($image2['sizes']['large']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>" />
-                      </a>
-                  </li>
-              <?php endforeach; ?>
-          </ul>
-      <?php endif; ?>
-
-      <?php 
-      if( $images3 ): ?>
-          <ul class="list_galery">
-              <?php foreach( $images3 as $image3 ): ?>
-                  <li class="item_galery">
-                      <a class="link_galery" href="<?php echo esc_url($image3['url']); ?>">
-                          <img class="img_galery" src="<?php echo esc_url($image3['sizes']['large']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>" />
-                      </a>
-                  </li>
-              <?php endforeach; ?>
-          </ul>
-      <?php endif; ?>
-    </div>
+    <?php while ( have_posts() ) : the_post(); ?>
+      <?php the_content() ?>
+    <?php endwhile; ?>
   </div>
 </div>
 
