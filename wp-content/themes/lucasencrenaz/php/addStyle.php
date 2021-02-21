@@ -34,3 +34,10 @@ wp_enqueue_style(
     array(),
     '1.0',
 );
+
+wp_enqueue_style(
+    'landscape',
+    get_template_directory_uri().'/assets/css/landscape.css',
+    array(),
+    '1.0',
+);
