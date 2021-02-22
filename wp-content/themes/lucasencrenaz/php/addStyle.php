@@ -41,3 +41,10 @@ wp_enqueue_style(
     array(),
     '1.0',
 );
+
+wp_enqueue_style(
+    'portraits',
+    get_template_directory_uri().'/assets/css/portraits.css',
+    array(),
+    '1.0',
+);
