@@ -1,0 +1,11 @@
+[2021-02-22 11:51:21 : INFO] - Re_Smush_It_Task with attachment ID : 70, autocreated on : February 22, 2021 11:51:21 
+[2021-02-22 11:51:30 : INFO] - Re_Smush_It_Task server status: Online 
+[2021-02-22 11:51:30 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2021-02-22 11:51:30 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2021-02-22 11:51:30 : INFO] - Task with ID 20 and type (smush) failed with error code invalid_file_type - C:\wamp64\www\wp_lucasencrenazphoto/wp-content/uploads/2021/02/favicon.ico - cannot be optimized, it has an invalid file type 
+[2021-02-22 11:51:30 : INFO] - Task with ID 20 and type (smush) failed with error code invalid_file_type - C:\wamp64\www\wp_lucasencrenazphoto/wp-content/uploads/2021/02/favicon.ico - cannot be optimized, it has an invalid file type 
+[2021-02-22 11:51:41 : INFO] - Re_Smush_It_Task server status: Online 
+[2021-02-22 11:51:41 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2021-02-22 11:51:41 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2021-02-22 11:51:41 : INFO] - Task with ID 21 and type (smush) failed with error code invalid_file_type - C:\wamp64\www\wp_lucasencrenazphoto/wp-content/uploads/2021/02/favicon.ico - cannot be optimized, it has an invalid file type 
+[2021-02-22 11:51:41 : INFO] - Task with ID 21 and type (smush) failed with error code invalid_file_type - C:\wamp64\www\wp_lucasencrenazphoto/wp-content/uploads/2021/02/favicon.ico - cannot be optimized, it has an invalid file type 
